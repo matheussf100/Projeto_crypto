@@ -27,13 +27,13 @@ O mercado muda muito rápido. Por isso, isolamos os dados dos últimos 5 dias do
 Além das perguntas diretas, nossa inteligência artificial analisou a "personalidade" dos preços através da estatística matemática:
 
 * **Dias "Fora da Curva" (Análise de Outliers):** 
-Calculamos matematicamente qual é a faixa de preço considerada "normal"[cite: 6]. Tudo o que foge dessa faixa é chamado de *Outlier*. Se identificarmos muitos *outliers* superiores, significa que a moeda teve picos de valorização explosivos e inesperados (eventos raros que geram muito lucro, mas trazem muito risco)[cite: 6].
+Calculamos matematicamente qual é a faixa de preço considerada "normal". Tudo o que foge dessa faixa é chamado de *Outlier*. Se identificarmos muitos *outliers* superiores, significa que a moeda teve picos de valorização explosivos e inesperados (eventos raros que geram muito lucro, mas trazem muito risco).
 
 * **O Nível de Surpresa do Mercado (Assimetria e Curtose):**
-Nossa análise classificou o formato do mercado[cite: 9]:
-  * Se o resultado for **Leptocúrtico**, significa que o preço passa a maior parte do tempo "parado" no valor médio, mas quando se move, dá saltos gigantescos[cite: 9].
-  * Se for **Platicúrtico**, significa que não há um valor previsível: o preço se espalha por vários valores diferentes, tornando a moeda mais instável no dia a dia[cite: 9].
-  * Se for **Mesocúrtico**, a moeda é mais calma, previsível e com poucas surpresas, como se espera de moedas tradicionais[cite: 9].
+Nossa análise classificou o formato do mercado:
+  * Se o resultado for **Leptocúrtico**, significa que o preço passa a maior parte do tempo "parado" no valor médio, mas quando se move, dá saltos gigantescos.
+  * Se for **Platicúrtico**, significa que não há um valor previsível: o preço se espalha por vários valores diferentes, tornando a moeda mais instável no dia a dia.
+  * Se for **Mesocúrtico**, a moeda é mais calma, previsível e com poucas surpresas, como se espera de moedas tradicionais.
 
 ## Conclusão
 Com essa infraestrutura de dados pronta, qualquer gestor ou investidor pode olhar para o histórico de milhões de transações e, em poucos segundos, saber exatamente a tendência atual, o limite de lucro esperado e o nível de risco associado a cada uma dessas três moedas.
